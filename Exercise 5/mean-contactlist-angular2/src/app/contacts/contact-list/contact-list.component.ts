@@ -1,18 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+// import { Component, OnInit } from '@angular/core';
 
-@Component({
-  selector: 'app-contact-list',
-  templateUrl: './contact-list.component.html',
-  styleUrls: ['./contact-list.component.css']
-})
-export class ContactListComponent implements OnInit {
+// @Component({
+//   selector: 'app-contact-list',
+//   templateUrl: './contact-list.component.html',
+//   styleUrls: ['./contact-list.component.css']
+// })
+// export class ContactListComponent implements OnInit {
 
-  constructor() { }
+//   constructor() { }
 
-  ngOnInit() {
-  }
+//   ngOnInit() {
+//   }
 
-}
+// }
 import { Component, OnInit } from '@angular/core';
 import { Contact } from '../contact';
 import { ContactService } from '../contact.service';
