@@ -11,6 +11,10 @@
     "e2e": "ng e2e",
     "postinstall": "ng build --output-path dist"
   },
+  "engines": {
+    "node": "10.8.0",
+    "npm": "6.2.0"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.3",
