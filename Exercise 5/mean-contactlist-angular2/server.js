@@ -68,6 +68,7 @@ function handleError(res, reason, message, code) {
       });
     }
   });
+  
   /*  "/api/contacts/:id"
    *    GET: find contact by id
    *    PUT: update contact by id
